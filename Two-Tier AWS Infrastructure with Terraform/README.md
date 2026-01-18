@@ -17,37 +17,8 @@ This project demonstrates a **Two-Tier architecture on AWS** using **Terraform**
 
 ---
 
-## 📖 Step-by-Step Guide  
 
-📌 **Read the full tutorial with screenshots**:  
-[Deploy Two-Tier Architecture on AWS using Terraform](https://blog.prodevopsguytech.com/deploy-two-tier-architecture-on-aws-using-terraform)  
 
----
-
-## 🚀 Getting Started  
-
-### 1️⃣ Clone the Repository  
-
-```bash
-git clone https://github.com/NotHarshhaa/DevOps-Projects
-cd DevOps-Projects/DevOps-Project-11/
-```  
-
-### 2️⃣ Initialize and Apply Terraform  
-
-```bash
-terraform init
-terraform plan -var-file=variables.tfvars
-terraform apply -var-file=variables.tfvars --auto-approve
-```  
-
-### 3️⃣ Cleanup (Destroy Infrastructure)  
-
-```bash
-terraform destroy -var-file=variables.tfvars --auto-approve
-```  
-
----
 
 ## 🏗️ Project Architecture Highlights  
 
